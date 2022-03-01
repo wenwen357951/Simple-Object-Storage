@@ -9,4 +9,4 @@ RUN apt-get install python3-pip -y
 RUN apt-get install python3-dev -y
 RUN apt-get install screen -y
 
-RUN pip3 install flask requests
+RUN pip3 install -r requirements.txt
